@@ -13,6 +13,8 @@
 
 ### FoXy, Fortran XML parser for poor people
 
+> Note: Please don't use this fork, it's literally exactly the same except all derived type members are public.
+
 A KISS pure Fortran Library for parsing XML files
 
 - FoXy is a pure Fortran (KISS) library for modern Fortran projects;

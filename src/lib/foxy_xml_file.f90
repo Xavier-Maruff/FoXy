@@ -12,7 +12,7 @@ type, public:: xml_file
   !<
   !< @todo The "delete" facility is incomplete: nested tags are not taken into account. Better support will with the
   !< "dom" facility.
-  private
+  !private
   integer(I4P)               :: Nt = 0 !< Number of XML tags.
   type(xml_tag), allocatable :: tag(:) !< XML tags array.
   contains

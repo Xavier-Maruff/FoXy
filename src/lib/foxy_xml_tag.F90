@@ -23,7 +23,7 @@ type :: xml_tag
   !< It is worth noting that the syntax is case sensitive and that the attributes are optional. Each attribute name must be followed
   !< by '="' without any additional white spaces and its value must be termined by '"'. Each attribute is separated by one or more
   !< white spaces.
-  private
+  !private
   type(string)              :: tag_name                !< Tag name.
   type(string)              :: tag_content             !< Tag content.
   type(string), allocatable :: attribute(:,:)          !< Attributes names/values pairs, [1:2, 1:].
